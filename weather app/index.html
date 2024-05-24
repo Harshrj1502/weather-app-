@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+
+<body>
+    <div class="container flex">
+        <div class="search flex">
+            <input type="text" placeholder="Search Location" spellcheck="false">
+            <span class="searchimg"><img src="svg/search-01-stroke-rounded.svg" alt=""></span>
+        </div>
+        <div class="error">
+            <p>Invalid City</p>
+        </div>
+        <div class="weather">
+            <div class="details flex">
+                <span class="temp" style="font-size: 4rem;">NA</span>
+                <span class="city" style="font-size: 2rem;">NA</span>
+            </div>
+            <div class="details1 border">
+                <p style="text-align: center;">WEATHER DETAILS</p>
+                <div class="col flex">
+                    <div>
+                        <p>Feels Like</p>
+                    </div>
+                    <div class="flex">
+                        <p class="feels-like">NA</p>
+                        <img src="svg/celsius-stroke-rounded.svg" alt="">
+                    </div>
+                </div>
+                <div class="col flex">
+                    <div>
+                        <p>Temp Max</p>
+                    </div>
+                    <div class="flex">
+                        <p class="temp-max">NA</p>
+                        <img src="svg/thermometer-warm-stroke-rounded.svg" alt="">
+                    </div>
+                </div>
+                <div class="col flex">
+                    <div>
+                        <p>Temp Min</p>
+                    </div>
+                    <div class="flex">
+                        <p class="temp-min">NA</p>
+                        <img src="svg/temperature-stroke-rounded.svg" alt="">
+                    </div>
+                </div>
+                <div class="col flex">
+                    <div>
+                        <p>Humidity</p>
+                    </div>
+                    <div class="flex">
+                        <p class="humidity">NA</p>
+                        <img src="svg/humidity.svg" alt="">
+                    </div>
+                </div>
+                <div class="col flex">
+                    <div>
+                        <p>Wind</p>
+                    </div>
+                    <div class="flex">
+                        <p class="wind">NA</p>
+                        <img src="svg/wind.svg" alt="">
+                    </div>
+                </div>
+                
+                <div class="col flex">
+                    <div>
+                        <p>Pressure</p>
+                    </div>
+                    <div class="flex">
+                        <p class="pressure">NA</p>
+                        <img src="svg/blood-pressure-stroke-rounded.svg" alt="">
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
